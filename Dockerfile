@@ -58,11 +58,10 @@ RUN export DEBIAN_FRONTEND='noninteractive' && \
                 /run/smokeping && \
     chmod -R g+ws /var/cache/smokeping /var/lib/smokeping /run/smokeping && \
     chmod u+s /usr/bin/fping && \
-    rm -rf /var/lib/apt/lists/* /tmp/*
-
-    /bin/echo "++home
-		menu = 114
-		title = 114
+    rm -rf /var/lib/apt/lists/* /tmp/*\
+    /bin/echo "++home\
+		menu = 114\
+		title = 114\
 		host = 114.114.114.114" >> /etc/smokeping/config.d/Targets
 
 COPY smokeping.sh /usr/bin/
