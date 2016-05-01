@@ -59,7 +59,7 @@ RUN export DEBIAN_FRONTEND='noninteractive' && \
     chmod -R g+ws /var/cache/smokeping /var/lib/smokeping /run/smokeping && \
     chmod u+s /usr/bin/fping && \
     rm -rf /var/lib/apt/lists/* /tmp/* && \
-    /bin/echo "\\
+    /bin/echo -e "\\
 \\
 ++home\\
 \\
