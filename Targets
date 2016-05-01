@@ -1,0 +1,44 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of xxx Company. \
+         Here you will learn all about the latency of our network.
+
++ Local
+
+menu = Local
+title = Local Network
+#parents = owner:/Test/James location:/
+
+++ LocalMachine
+
+menu = Local Machine
+title = This host
+host = localhost
+#alerts = someloss
+
+
+++114
+
+menu = 114
+title = 114
+host = 114.114.114.114
+
+
+++baidu
+
+menu = baidu
+title = baidu
+host = www.baidu.com
+
+
+++taobao
+
+menu = taobao
+title = taobao
+host = www.taobao.com
+
+

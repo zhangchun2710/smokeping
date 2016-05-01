@@ -58,20 +58,11 @@ RUN export DEBIAN_FRONTEND='noninteractive' && \
                 /run/smokeping && \
     chmod -R g+ws /var/cache/smokeping /var/lib/smokeping /run/smokeping && \
     chmod u+s /usr/bin/fping && \
-    rm -rf /var/lib/apt/lists/* /tmp/* && \
-    /bin/echo -e "\
-\n\n++114\
-\n\nmenu = 114\
-\ntitle = 114\
-\nhost = 114.114.114.114\n\
-\n\n++baidu\
-\n\nmenu = baidu\
-\ntitle = baidu\
-\nhost = www.baidu.com\n\
-\n\n++taobao\
-\n\nmenu = taobao\
-\ntitle = taobao\
-\nhost = www.taobao.com\n" >> /etc/smokeping/config.d/Targets
+    rm -rf /var/lib/apt/lists/* /tmp/* 
+
+RUN rm -v /etc/smokeping/config.d/Targets
+
+ADD Targets /etc/smokeping/config.d/
 
 COPY smokeping.sh /usr/bin/
 
