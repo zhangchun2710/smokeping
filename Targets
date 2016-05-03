@@ -47,3 +47,10 @@ host = www.taobao.com
 menu = google
 title = google
 host = www.google.com
+
+
+++v2ex
+
+menu = v2ex
+title = v2ex
+host = www.v2ex.com
