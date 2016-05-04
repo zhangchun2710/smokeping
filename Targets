@@ -300,9 +300,6 @@ title = ZhenjiangCT:222.186.14.1
 host = 222.186.14.1
 #alerts = someloss
 
-++  YanChengCT
-host = 49.79.65.1
-#alerts = someloss
 
 ++  TaizhouCT
 menu = 泰州电信
