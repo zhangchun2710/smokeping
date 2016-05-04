@@ -21,29 +21,339 @@ host = localhost
 #alerts = someloss
 
 
-++114
 
-menu = 114
-title = 114
++ China-Network
+
+menu = 上海TO八大城市节点Ping
+title = 上海TO八大城市节点Ping
+#parents = owner:/Test/James location:/
+
+++ BeiJing
+menu = 北京
+title = 北京
+
++++ BeiJingCT
+menu = 北京电信
+title = BeiJingCT:220.181.22.1
+host = 220.181.22.1
+#alerts = someloss
+
++++ BeiJingCU
+menu = 北京联通
+title = BeiJingCU:61.48.40.1
+host = 61.48.40.1
+#alerts = someloss
+
++++  BeiJingCM
+menu = 北京移动
+title = BeiJingCM:221.130.33.1
+host = 221.130.33.1
+#alerts = someloss
+
++++  BeiJingCNEDU
+menu = 北京教育网
+title = BeiJingCNEDU:166.111.8.28
+host = 166.111.8.28
+#alerts = someloss
+
+++ ShangHai
+menu = 上海
+title = 上海
+
++++ ShangHaiCT
+menu = 上海电信
+title = ShangHaiCT:202.96.209.13
+host = 202.96.209.13
+#alerts = someloss
+
++++ ShangHaiCU
+menu = 上海联通
+title = ShangHaiCU:211.95.72.254
+host = 211.95.72.254
+#alerts = someloss
+
++++  ShangHaiCM
+menu = 上海移动
+title = ShangHaiCM:117.135.135.1
+host = 117.135.135.1
+#alerts = someloss
+
++++  ShangHaiCNEDU
+menu = 上海教育网
+title = ShangHaiCNEDU:59.79.124.1
+host = 59.79.124.1
+#alerts = someloss
+
+++ GuangZhou
+menu = 广州
+title = 广州
+
++++ GuangZhouCT
+menu = 广州电信
+title = GuangZhouCT:58.61.200.1
+host = 58.61.200.1
+#alerts = someloss
+
++++ GuangZhouCU
+menu = 广州联通
+title = GuangZhouCU:211.95.193.1
+host = 211.95.193.1
+#alerts = someloss
+
++++  GuangZhouCM
+menu = 广州移动
+title = GuangZhouCM:211.136.192.1
+host = 211.136.192.1
+#alerts = someloss
+
++++  GuangZhouCNEDU
+menu = 广州教育网
+title = GuangZhouCNEDU:202.116.160.33
+host = 202.116.160.33
+#alerts = someloss
+
+++ WuHan
+menu = 武汉
+title = 武汉
+
++++ WuHanCT
+menu = 武汉电信
+title = WuHanCT:202.103.24.1
+host = 202.103.24.1
+#alerts = someloss
+
++++ WuHanCU
+menu = 武汉联通
+title = WuHanCU:218.106.115.1
+host = 218.106.115.1
+#alerts = someloss
+
++++  WuHanCM
+menu = 武汉移动
+title = WuHanCM:211.137.79.129
+host = 211.137.79.129
+#alerts = someloss
+
++++  WuHanCNEDU
+menu = 武汉教育网
+title = WuHanCNEDU:202.114.0.242
+host = 202.114.0.242
+#alerts = someloss
+
+++ ChengDu
+menu = 成都
+title = 成都
+
++++ ChengDuCT
+menu = 成都电信
+title = ChengDuCT:202.98.96.68
+host = 202.98.96.68
+#alerts = someloss
+
++++ ChengDuCU
+menu = 成都联通
+title = ChengDuCU:221.10.254.1
+host = 221.10.254.1
+#alerts = someloss
+
++++  ChengDuCM
+menu = 成都移动
+title = ChengDuCM:117.136.82.1
+host = 117.136.82.1
+#alerts = someloss
+
++++  ChengDuCNEDU
+menu = 成都教育网
+title = ChengDuCNEDU:202.115.32.39
+host = 202.115.32.39
+#alerts = someloss
+
+++ XiAn
+menu = 西安
+title = 西安
+
++++ XiAnCT
+menu = 西安电信
+title = XiAnCT:219.144.222.162
+host = 219.144.222.162
+#alerts = someloss
+
++++ XiAnCU
+menu = 西安联通
+title = XiAnCU:124.89.1.1
+host = 124.89.1.1
+#alerts = someloss
+
++++  XiAnCM
+menu = 西安移动
+title = XiAnCM:211.137.133.66
+host = 211.137.133.66
+#alerts = someloss
+
++++  XiAnCNEDU
+menu = 西安教育网
+title = XiAnCNEDU:202.117.112.3
+host = 202.117.112.3
+#alerts = someloss
+
+++ NanJing
+menu = 南京
+title = 南京
+
++++ NanJingCT
+menu = 南京电信
+title = NanJingCT:114.114.114.114
 host = 114.114.114.114
+#alerts = someloss
+
++++ NanJingCU
+menu = 南京联通
+title = NanJingCU:221.6.4.66
+host = 221.6.4.66
+#alerts = someloss
+
++++  NanJingCM
+menu = 南京移动
+title = NanJingCM:221.130.13.1
+host = 221.130.13.1
+#alerts = someloss
+
++++  NanJingCNEDU
+menu = 南京教育网
+title = NanJingCNEDU:202.119.64.123
+host = 202.119.64.123
+#alerts = someloss
+
+++ ShengYang
+menu = 沈阳
+title = 沈阳
+
++++ ShengYangCT
+menu = 沈阳电信
+title = ShengYangCT:42.248.0.1
+host = 42.248.0.1
+#alerts = someloss
+
++++ ShengYangCU
+menu = 沈阳联通
+title = ShengYangCU:42.56.69.1
+host = 42.56.69.1
+#alerts = someloss
+
++++  ShengYangCM
+menu = 沈阳移动
+title = ShengYangCM:223.100.7.1
+host = 223.100.7.1
+#alerts = someloss
+
++++  ShengYangCNEDU
+menu = 沈阳教育网
+title = ShengYangCNEDU:202.118.1.53
+host = 202.118.1.53
+#alerts = someloss
 
 
-++taobao
-
-menu = taobao
-title = taobao
-host = www.taobao.com
++ ShangHaiToJiangSuCT
+menu = 上海TO江苏电信Ping
+title = 上海TO江苏电信Ping
 
 
-++google
+++ SuzhouCT
+menu = 苏州电信
+title = SuzhouCT:61.155.136.1
+host = 61.155.136.1
+#alerts = someloss
 
-menu = google
-title = google
-host = www.google.com
+++  NanjingCT
+menu = 南京电信
+title = NanjingCT:114.114.114.114
+host = 114.114.114.114
+#alerts = someloss
 
+++  WuxiCT
+menu = 无锡电信
+title = WuxiCT:221.228.255.1
+host = 221.228.255.1
+#alerts = someloss
 
-++v2ex
+++  NantongCT
+menu = 南通电信
+title = NantongCT:49.79.65.1
+host = 49.79.65.1
+#alerts = someloss
 
-menu = v2ex
-title = v2ex
-host = www.v2ex.com
+++  TaizhouCT
+menu = 泰州电信
+title = TaizhouCT:218.90.212.65
+host = 218.90.212.65
+#alerts = someloss
+
+++  YangzhouCT
+menu = 扬州电信
+title = YangzhouCT:58.220.0.1
+host = 58.220.0.1
+#alerts = someloss
+
+++  ZhenjiangCT
+menu = 镇江电信
+title = ZhenjiangCT:222.186.14.1
+host = 222.186.14.1
+#alerts = someloss
+
+++  YanChengCT
+host = 49.79.65.1
+#alerts = someloss
+
+++  TaizhouCT
+menu = 泰州电信
+title = TaizhouCT:221.230.133.1
+host = 221.230.133.1
+#alerts = someloss
+
+++  YangzhouCT
+menu = 扬州电信
+title = YangzhouCT:58.220.0.1
+host = 58.220.0.1
+#alerts = someloss
+
+++  ZhenjiangCT
+menu = 镇江电信
+title = ZhenjiangCT:222.186.14.1
+host = 222.186.14.1
+#alerts = someloss
+
+++  YanChengCT
+menu = 盐城电信
+title = YanChengCT:222.188.109.1
+host = 222.188.109.1
+#alerts = someloss
+
+++  XuZhouCT
+menu = 徐州电信
+title = XuZhouCT:61.147.37.1
+host = 61.147.37.1
+#alerts = someloss
+
+++  HuaiAnCT
+menu = 淮安电信
+title = HuaiAnCT:222.184.89.1
+host = 222.184.89.1
+#alerts = someloss
+
+++  SuQianCT
+menu = 宿迁电信
+title = SuQianCT:222.187.223.1
+host = 222.187.223.1
+#alerts = someloss
+
+++  ChangZhouCT
+menu = 常州电信
+title = ChangZhouCT:58.216.211.1
+host = 58.216.211.1
+#alerts = someloss
+
+++  LianYunGangCT
+menu = 连云港电信
+title = LianYunGangCT:58.223.1.1
+host = 58.223.1.1
+#alerts = someloss
