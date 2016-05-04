@@ -282,11 +282,6 @@ title = NantongCT:49.79.65.1
 host = 49.79.65.1
 #alerts = someloss
 
-++  TaizhouCT
-menu = 泰州电信
-title = TaizhouCT:218.90.212.65
-host = 218.90.212.65
-#alerts = someloss
 
 ++  YangzhouCT
 menu = 扬州电信
@@ -307,17 +302,6 @@ title = TaizhouCT:221.230.133.1
 host = 221.230.133.1
 #alerts = someloss
 
-++  YangzhouCT
-menu = 扬州电信
-title = YangzhouCT:58.220.0.1
-host = 58.220.0.1
-#alerts = someloss
-
-++  ZhenjiangCT
-menu = 镇江电信
-title = ZhenjiangCT:222.186.14.1
-host = 222.186.14.1
-#alerts = someloss
 
 ++  YanChengCT
 menu = 盐城电信
