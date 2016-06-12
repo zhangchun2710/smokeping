@@ -24,8 +24,8 @@ host = localhost
 
 + China-Network
 
-menu = 上海TO八大城市节点Ping
-title = 上海TO八大城市节点Ping
+menu = TO骨干节点Ping
+title = TO骨干节点Ping
 #parents = owner:/Test/James location:/
 
 ++ BeiJing
@@ -254,8 +254,8 @@ host = 202.118.1.53
 
 
 + ShangHaiToJiangSuCT
-menu = 上海TO江苏电信Ping
-title = 上海TO江苏电信Ping
+menu = TO二线节点Ping
+title = TO二线节点Ping
 
 
 ++ SuzhouCT
@@ -264,77 +264,9 @@ title = SuzhouCT:61.155.136.1
 host = 61.155.136.1
 #alerts = someloss
 
-++  NanjingCT
-menu = 南京电信
-title = NanjingCT:114.114.114.114
-host = 114.114.114.114
-#alerts = someloss
-
 ++  WuxiCT
 menu = 无锡电信
 title = WuxiCT:221.228.255.1
 host = 221.228.255.1
 #alerts = someloss
 
-++  NantongCT
-menu = 南通电信
-title = NantongCT:49.79.65.1
-host = 49.79.65.1
-#alerts = someloss
-
-
-++  YangzhouCT
-menu = 扬州电信
-title = YangzhouCT:58.220.0.1
-host = 58.220.0.1
-#alerts = someloss
-
-++  ZhenjiangCT
-menu = 镇江电信
-title = ZhenjiangCT:222.186.14.1
-host = 222.186.14.1
-#alerts = someloss
-
-
-++  TaizhouCT
-menu = 泰州电信
-title = TaizhouCT:221.230.133.1
-host = 221.230.133.1
-#alerts = someloss
-
-
-++  YanChengCT
-menu = 盐城电信
-title = YanChengCT:222.188.109.1
-host = 222.188.109.1
-#alerts = someloss
-
-++  XuZhouCT
-menu = 徐州电信
-title = XuZhouCT:61.147.37.1
-host = 61.147.37.1
-#alerts = someloss
-
-++  HuaiAnCT
-menu = 淮安电信
-title = HuaiAnCT:222.184.89.1
-host = 222.184.89.1
-#alerts = someloss
-
-++  SuQianCT
-menu = 宿迁电信
-title = SuQianCT:222.187.223.1
-host = 222.187.223.1
-#alerts = someloss
-
-++  ChangZhouCT
-menu = 常州电信
-title = ChangZhouCT:58.216.211.1
-host = 58.216.211.1
-#alerts = someloss
-
-++  LianYunGangCT
-menu = 连云港电信
-title = LianYunGangCT:58.223.1.1
-host = 58.223.1.1
-#alerts = someloss
